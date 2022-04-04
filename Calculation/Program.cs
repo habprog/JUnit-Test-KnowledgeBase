@@ -10,34 +10,7 @@ namespace Calculation
     {
         static void Main(string[] args)
         {
-            var  names = new List<Names>()
-            {
-                new Names
-                {
-                    firstName = "habeeb",
-                    lastName = "Bello"
-                },
-                new Names
-                {
-                    firstName = "afolabi",
-                    lastName = "Bello"
-                }
-            };
-
-
-            var c = names.Where(a => a.firstName == "haeeb").FirstOrDefault();
-            if(c != null)
-            {
-
-            Console.WriteLine(c.lastName);  
-            }
-            else
-            {
-
-            Console.WriteLine("not found");
-            }
-            Console.ReadLine();
-
+           
         }
     }
 }
